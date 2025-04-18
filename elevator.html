@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--bootstrap-link-->
+    <link rel="stylesheet" href="elevator.css">
+    <!--main-css-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!--icon link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--AOS animation link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        .navbar {
+            background: #53525283 !important;
+        }
+
+        .navbar-nav li {
+            padding: 0 10px;
+        }
+
+        .navbar-nav li a {
+            color: #fff !important;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .navbar li:hover {
+            background: rgb(172, 90, 90);
+        }
+
+        .weblogo {
+            width: 190px;
+        }
+
+        .mob-logo {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .weblogo {
+                display: none;
+            }
+
+            .mob-logo {
+                display: block;
+                width: 76px;
+            }
+
+            .navbar {
+                background: #af4e4ef8 !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">
+                <img src="https://elevatorplus.app/website-files/img/updated_elevator_plus_logo.png"
+                    alt="" class="weblogo">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/020/618/941/small_2x/elevator-logo-brand-symbol-design-graphic-minimalist-logo-vector.jpg"
+                    alt="" class="mob-logo">
+            </a>
+            <!--mobile-view-->
+            <button class="navbar-toggler" data-bs-target="#a" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--menu-div-->
+            <div class="navbar-collapse collapse" id="a">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li><a href="elevator.html" style="font-weight: lighter; font-size: 19px; font-family: 'prague' ;"
+                            class="nav-link">Home</a></li>
+                    <li><a href="about us.html" style="font-weight: lighter; font-size: 19px; font-family: 'prague'"
+                            class="nav-link">About Us</a></li>
+                    <li><a href="our products.html" style="font-weight: lighter; font-size: 19px; font-family: 'prague'"
+                            class="nav-link">Our Product</a></li>
+                    <li><a href="safety.html" style="font-weight: lighter; font-size: 19px; font-family: 'prague'"
+                            class="nav-link">Safety</a></li>
+                    <li><a href="contact us.html" style="font-weight: lighter; font-size: 19px; font-family: 'prague'"
+                            class="nav-link">Contact Us</a></li>
+
+                </ul>
+
+            </div><!--menu-div end-->
+        </div><!--container end-->
+    </nav>
+
+    <!--Slider-div-start-->
+    <div class="carousel slide" data-bs-ride="carousel" id="al">
+        <div class="carousel-inner">
+            <div class="space">
+                <div class="carousel-item active">
+                    <img src="https://wallpapers.com/images/hd/elevator-pictures-1802-x-1054-14i2q1e40b1i0mnx.jpg"
+                        alt="" class="w-100" height="600px">
+
+                </div>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#a1" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#a1" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#a1" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#a1" data-bs-slide-to="3"></button>
+
+
+                </div><!--carousel-indicators end-->
+
+                <div class="carousel-item">
+                    <img src="https://img.lovepik.com/bg/20240512/close-up-3d-render-of-a-modern-elevator-or-lift_11718509_wh1200.jpg"
+                        alt="" class="w-100" height="600px">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cubelifts.biz/wp-content/uploads/2020/09/new-elevators-1024x476.jpg" alt=""
+                        class="w-100" height="600px">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*gi49e3h9D2xi93GGDBq4mw.jpeg" alt="" class="w-100"
+                    height="600px">
+            </div>
+
+            <div class="carousel-caption">
+                <!-- <h1>hello gwalior</h1> -->
+            </div><!--caption end-->
+        </div><!--carousel-inner-->
+    </div><!--slider-div-end-->
+    <br>
+    <br>
+    <br>
+
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#s" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#s" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button> -->
+
+
+    <div class="container">
+        <div class="row" style="background-color: #100f0f62;">
+            <div class="col-md-12 text-center" style="text-transform: uppercase; font-family: 'prague'; 
+            letter-spacing: 2px; font-size: 1.2cm; margin-top: 0.2cm;">
+                <p><b style="color:white;">
+                        WELCOME TO THE NAXON ELEVATOR
+                    </b></p>
+            </div>
+
+
+        </div><!--row end-->
+    </div><!--container-end-->
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="card shadow mt-4">
+                    <img src="http://www.hitachi-lift.co.in/image/custom/top/elevator.jpg" alt="" width="100%"
+                        height="303px" ;>
+                </div>
+
+            </div>
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="card shadow mt-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZNgjCftcVeMb8p-zSD2_bgMk5U6mrWME8-w&s"
+                        alt="" width="100%" height="303px" ;>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="card shadow mt-4">
+                    <img src="https://types.blog/wp-content/uploads/2024/01/Elevator-Control-1024x576.jpeg" alt=""
+                        width="100%" height="303px" ;>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="card shadow mt-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIHulwlSXG_1MYnI4DMZr461NtxGmA6RefhA&s"
+                        alt="" width="100%" height="303px" ;>
+                </div>
+            </div>
+
+        </div> <!--row-end-->
+
+    </div> <!--container-end-->
+    <br>
+    <br>
+    <br>
+
+    <div class="container-fluid c">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center">
+                <h1 class="d" style=" margin-top: 128px; font-family: 'prague'; color: rgb(229 76 6); font-size: 36px;">
+                    MANAGEMENT MESSAGE </h1>
+                <p class="e"
+                    style="margin-top: 50px; font-family: 'prague'; color: white; font-size: 21px; letter-spacing: 2px;">
+                    We welcome you to our website<br>
+                    “We recognize the growth potential of the Indian economy and to cater to the growing elevator market
+                    here, we have established a company called <b style="color:#d34e4e" ;>
+                        <br>NAXON ELEVATOR India Private
+                        Ltd.</b>
+
+                    <br>This company will strive to further enhance the market confidence by delivering our products &
+                    services with world class quality and attain ‘customer delight’. Towards this, "We will continuously
+                    improve our services by offering wide ranging products and delivering operational excellence in
+                    every facet of our business".
+                </p>
+            </div>
+        </div><!--row-end-->
+    </div><!--container-end-->
+    <br>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <h5>ABOUT COMPANY</h5>
+                    <hr class="text-white">
+                    <p class="disc">
+                        Visionext Elevators is a leading innovator in the elevator industry, dedicated to transforming
+                        vertical transportation with cutting-edge technology and superior design. We specialize in
+                        providing reliable, safe, and energy-efficient elevator solutions tailored to meet the unique
+                        needs of residential, commercial, and industrial projects.
+                    </p>
+                </div>
+
+
+                <div class="col-md-1"></div>
+                <div class="col-md-2 ">
+                    <!-- <div class="row text-white">
+                        <div class="col-md-4"> -->
+                    <h5>OUR PRODUCTS</h5>
+                    <hr class="text-white">
+
+                    <a>
+                        <ul>
+                            <li>Passenger Elevators</li>
+                            <li>Service Elevators</li>
+                            <li>Goods Elevators</li>
+                            <li>Hydraulic Elevators</li>
+                            <li>Capsule Elevators</li>
+                            <li>Obseration Elevators</li>
+                            <li>Home Elevators</li>
+                            <li> Machine Room Less (MRL) Elevator</li>
+                            <li>Escalator</li>
+
+                        </ul>
+                    </a>
+                </div>
+
+                <div class="col-md-1 text-white"></div>
+
+                <div class="col-md-3 text-white ">
+
+                    <h5>CONTACT US</h5>
+                    <hr class="text-white">
+
+                    <p class="text-light">
+                        "MOBILE:"
+                        <b style="color:#793434; font-weight: 400;">
+                            <a href="" style="color:#b13e3e;">
+                                +91 9993249379</a>
+                        </b>
+                    </p>
+
+
+                    <p class="text-light">
+                        "EMAIL:"
+                        <b style="color:#b15757; font-weight: 400;">
+                            <a href="" style="color:#b13e3e;">nishantsinghchauhan3@gmail.com</a>
+                        </b>
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            
+                            <a href="#">
+                                <i class="bx bxl-facebook-circle" style="color:#d34e4e; font-size:40px;"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="bx bxl-instagram" style="color:#d34e4e; font-size:40px;"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="bx bxl-whatsapp" style="color:#d34e4e; font-size:40px;"></i>
+                            </a>
+
+
+                            <div class="col-md-6 mb-5"></div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+</div><!--row-end-->
+            </div><!--container-end-->
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+</body>
+
+</html>
