@@ -1,0 +1,193 @@
+.imag123 {
+    width: 80%;
+}
+
+.a {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.b {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+@media (max-width:768px) {
+    .imag123 {
+        width: 100%;
+    }
+
+}
+
+.c {
+    background: url(https://images.stockcake.com/public/d/8/a/d8adf81a-806a-4513-be3a-1d31200ece87_large/man-enters-elevator-stockcake.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.c2 {
+    background: url(https://visionextelevators.co.in/assets/images/bg/breadcrumb.jpg);
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+
+}
+.c3{
+    background: url(https://www.hybonelevators.com/wp-content/uploads/2021/12/1-1.jpg);
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+}
+
+.c4{
+    background: url(https://www.eliteelevators.com/wp-content/uploads/2025/03/06/contact-us.webp);
+    width: 100%;
+    height: 386px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.c5{
+    background: url(https://www.gannettfleming.com/wp-content/uploads/2022/01/Gannett-Fleming-Safety-Header.jpeg);
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+}
+
+.k{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.f{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+
+}
+.g{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+
+}
+.h{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+
+}
+.i{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.j{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+
+}
+.l{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.m{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.n{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+footer {
+    background: #53505093;
+    padding: 50px;
+    /* color: #fff; */
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+
+    position: relative;
+    padding-bottom: 24px;
+    margin-bottom: 35px;
+}
+
+footer h2 {
+
+    font-family: 'prague';
+    font-size: 2 rem;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: #fff;
+
+
+
+}
+
+footer .foot-add {
+    padding: 15px;
+    text-decoration: none;
+}
+
+footer b {
+    color: #1c1b1b;;
+    text-decoration: none;
+}
+
+h5 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #994135;
+    
+}
+h5:hover{
+    color:#fff;
+    
+}
+
+li {
+    list-style: none;
+}
+.icon{
+    color:#b13e3e;
+    font-size: 30px;
+}
+.icon:hover{
+    font-size:45px;
+
+}
